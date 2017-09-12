@@ -1,0 +1,30 @@
+body{
+  font-size:6pt;  
+}
+
+td{
+  /* td's width */
+  width : 100px;
+  /* for text */
+  text-align:center;
+}
+
+.sun{
+color:red;  
+}
+
+.sat{
+  color:blue;
+}
+
+.mon, .tue, .wed, .thu, .fri{
+  color:;
+}
+
+#stit{
+  font-size:20pt
+}
+
+table{
+  background:url("http://cfile26.uf.tistory.com/image/25356F35581C184B0A9610")
+}

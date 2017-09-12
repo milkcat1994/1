@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <script src="./3.js"></script>
+  <title>Use a Link</title>
+</head>
+<body>
+	<!-- a means anchor -->
+	<!-- src means source -->
+	<!-- _self : don't use new Page -->
+	<!-- _blank or new : use new Page  -->
+	<a href="https://www.kw.ac.kr" target="new">광운대학교</a> <br>
+	<a href="https://www.kw.ac.kr" target="new"><img src="http://webpds.saramin.co.kr/pds/united_company/logo/30018_logo.jpg"></a><br><hr>
+
+	<!--  -->
+	<select onchange="paths(this.value)">
+		<option value="0" />사이트 선택
+		<option value="1" />네이버
+		<option value="2" />다음
+		<option value="3" />네이트
+		<option value="4" />구글
+		<option value="5" />유투브
+		<option value="6" />유투브2
+	</select>
+	<input id="query" />
+	<!-- onclick or ondblclick -->
+	<button onclick="search(query.value)">검색</button><hr>
+	출발<input id="s" />
+	도착<input id="f" />
+	<button onclick="load(s.value, f.value)">길찾기</button>
+
+</body>
+</html>

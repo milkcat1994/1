@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="./2.css">
+  <title>시간표</title>
+</head>
+<body>
+  <h3> table make </h3>
+  <!-- border means "explict-line that table's form" -->
+  <!-- align means "move to xxx table's form" -->
+  
+  <table border=1 align="center">
+    <!-- tr makes row -->
+    <tr>
+      <!-- column span -->
+      <td colspan=8 id="stit">
+        <!-- rt means ruby's superscript"-->
+        <ruby>시 간 표<rt>2017년도 2학기</rt></ruby>
+      </td>
+    </tr>
+    <!-- title -->
+    <tr>
+      <th class="tit"> - </td>
+      <th class="sun"> 일 </td>
+      <th class="mon"> 월 </td>
+      <th class="tue"> 화 </td>
+      <th class="wed"> 수 </td>
+      <th class="thu"> 목 </td>
+      <th class="fri"> 금 </td>
+      <th class="sat"> 토 </td>
+    </tr>
+    <tr>
+      <td class="tit"> 
+        <ruby>1교시<rt>09:00~10:15</rt></ruby> </td>
+      <td class="sun" rowspan=6> 짜파게티 </td>
+      <td class="mon"> <ruby>프로그래밍 언어론<rt>새빛관_204호</rt></ruby> </td>
+      <td class="tue">  </td>
+      <td class="wed">  </td>
+      <td class="thu"> <ruby>컴퓨터그래픽스<rt>새빛관_204호</rt></ruby> </td>
+      <td class="fri" rowspan=4>  </td>
+      <td class="sat" rowspan=6> 너구리 </td>
+    </tr>
+    <tr>
+      <td class="tit"> 
+        <ruby>2교시<rt>10:30~11:45</rt></ruby> </td>
+      <td class="mon" rowspan=4>  </td>
+      <td class="tue"> <ruby>컴퓨터그래픽스    <rt>새빛관_204호</rt></ruby> </td>
+      <td class="wed"> <ruby>프로그래밍 언어론  <rt>새빛관_204호</rt></ruby> </td>
+      <td class="thu">  </td>
+    </tr>
+    <tr>
+      <td class="tit"> 
+        <ruby>3교시<rt>12:00~13:15</rt></ruby> </td>
+      <td class="tue">  </td>
+      <td class="wed" rowspan=2>  </td>
+      <td class="thu"> <ruby>수치해석      <rt>새빛관_204호</rt></ruby> </td>
+    </tr>
+    <tr>
+      <td class="tit"> 
+        <ruby>4교시<rt>13:30~14:45</rt></ruby> </td>
+      <td class="tue"> <ruby>수치해석      <rt>새빛관_204호</rt></ruby> </td>
+      <td class="thu">  </td>
+    </tr>
+    <tr>
+      <td class="tit"> 
+        <ruby>5교시<rt>15:00~16:15</rt></ruby> </td>
+      <td class="tue">  </td>
+      <td class="wed"> <ruby>인공지능     <rt>새빛관_204호</rt></ruby> </td>
+      <td class="thu"> <ruby>인터넷 활용   <rt>연구관_201호</rt></ruby> </td>
+      <td class="fri"> <ruby>심화전공실습1 <rt>새빛관_301호</rt></ruby> </td>
+    </tr>
+    <tr>
+      <td class="tit"> 
+        <ruby>6교시<rt>16:30~17:45</rt></ruby> </td>
+      <td class="mon"> <ruby>인공지능      <rt>새빛관_204호</rt></ruby> </td>
+      <td class="tue"> <ruby>인터넷 활용   <rt>연구관_201호</rt></ruby> </td>
+      <td class="wed">  </td>
+      <td class="thu">  </td>
+      <td class="fri"> <ruby>심화전공실습1   <rt>새빛관_301호</rt></ruby> </td>
+    </tr>
+  </table>
+</body>
+</html>
