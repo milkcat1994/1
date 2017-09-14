@@ -1,3 +1,3 @@
-# Web_Publishing_Study
-- ±³¾ç°ú¸ñ ÀÎÅÍ³İ È°¿ë ¼ö¾÷ ÀÚ·á
+ï»¿# Web_Publishing_Study
+- êµì–‘ê³¼ëª© ì¸í„°ë„· í™œìš© ìˆ˜ì—… ìë£Œ
 - Study in JS bin

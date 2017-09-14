@@ -1,0 +1,10 @@
+/* * is means all of them*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#image, #video {
+  width:100vw;
+  
+}
