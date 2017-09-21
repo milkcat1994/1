@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="./6_1.css">
+  <script src="./6_1.js"></script>
+  <title>Input2 test</title>
+</head>
+<body>
+	<input type="file" accept="/*" onchange="load(this.files)"/>
+	<br><br><hr>
+	<input type="color" onchange="color(this.value)" />
+	<input type="button" onclick="pp()" id="b" value="▶" />
+	<input type="date" id="d" />
+	<input type="time" id="t" /> <br><br>
+	<input type="datetime-local" id="dt" />
+	<input type="number" id="n" min=0 max=100 step=5 value=50/>
+	0<ruby>
+		<input type="range" id="r" min=0 max=100 step=5 value=50 onchange="range(this.value)" />
+	<rt id="rv">50</rt></ruby>100
+	<input type="email" />
+	<input type="url" />
+	<input type="tel" id="tel"/><button onclick="phone(tel.value)">전화</button>
+	<textarea id="sms"></textarea>
+	<button onclick="fms(tel.value, sms.value)">문자</button><br>
+
+
+	<br><br><hr>
+	<video id="v"></video>
+</body>
+</html>
