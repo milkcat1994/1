@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+td{
+	width: 150px;
+	text-align: center;
+}
+
+img, button{
+	width:140px;
+}
+
+#tit{
+	font-size: 24pt;
+	color: blue;
+}

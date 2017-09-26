@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="./7_1.css">
+  <script src="./7_1.js"></script>
+  <title>가위 바위 보</title>
+</head>
+<body>
+	<table border="1" align="center">
+		<tr>
+			<td colspan="4"><audio id="ado" autoplay controls></audio></td>
+		</tr>
+		<tr>
+			<td id="tit" colspan="4">가위 바위 보 게임</td>
+		</tr>
+		<tr>
+			<td>전</td>
+			<td>승</td>
+			<td>무</td>
+			<td>패</td>
+		</tr>
+		<tr>
+		<!-- total  win  draw  lose -->
+			<td id="tt">0</td>
+			<td id="ww">0</td>
+			<td id="dd">0</td>
+			<td id="ll">0</td>
+		</tr>
+		<tr>
+			<td id="result" colspan="4">결과</td>
+		</tr>
+		<tr>
+			<td colspan="2">사용자</td>
+			<td colspan="2">컴퓨터</td>
+		</tr>
+		<tr>
+		<!-- 가위 바위 보 -->
+			<td colspan="2"><img id="usr" ></td>
+			<td colspan="2"><img id="com" ></td>
+		</tr>
+		<tr>
+			<td><button value=0 onclick="play(this.value)"><img src="http://rsp.alltheway.kr/images/main/main01.png"></button></td>
+			<td><button value=1 onclick="play(this.value)"><img src="http://rsp.alltheway.kr/images/main/main02.png"></button></td>
+			<td><button value=2 onclick="play(this.value)"><img src="http://rsp.alltheway.kr/images/main/main03.png"></button></td>
+			<td><button onclick="location.reload()">리셋</button></td>
+		</tr>
+	</table>
+</body>
+</html>
