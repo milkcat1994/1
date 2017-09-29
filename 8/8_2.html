@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="./8_2.css">
+  <script src="./8_2.js"></script>
+  <title>노래방</title>
+</head>
+<body>
+	<select id="opt">
+	<!-- default is 노래방 -->
+		<option value="노래방 " selected />노래방
+		<option value="LIVE "/>LIVE
+		<option value="MV "/>MV
+		<option value="직캠 "/>직캠
+	</select>
+	<input id="song" placeholder="가수 or 제목을 입력하세요"/>
+	<button onclick="play(opt.value, song.value)">시작</button>
+	<iframe id="ifr" allowfullscreen>
+	</iframe>
+</body>
+</html>

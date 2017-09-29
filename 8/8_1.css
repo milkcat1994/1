@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+td{
+	width: 150px;
+	text-align: center;
+}
+
+img, button{
+	width:140px;
+}
+
+#tit{
+	font-size: 24pt;
+	color: blue;
+}
+
+table{
+	background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ3Wj3AscaL3wYBRUomTtV8E1w6ItT2Klneeww55ZT1dDAyFoS");
+}
