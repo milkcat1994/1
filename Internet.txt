@@ -1,0 +1,18 @@
+﻿문제는 3문제
+HTML의 기본 구조는 html, head, title, body로 구성이 되어있음.
+HTML5에서는 body내부에도 새로운 구조가 생김
+
+1.
+ >> HTML 구조 작성 + 설명
+
+2_1 h1~6 tag사용, i,u,b 사용 문제
+2_2 font tag사용(size=1~7) color, face 사용
+2_3 a tag사용 , image tag사용 -> image클릭시 해당 a tag의 href로 이동
+
+3 table그리기 (table, th, tr, td, colspan, rowspan)
+
+4 input tag type 종류별
+- text, password, color, datetime-local, radio, checkbox, range(min, max, value, step)
+굳이 html부터해서 다 적지 않아도 되며, 가운데 정렬같은 불필요한 css작업 필요없음.
+
++ "이용해서 상동 표시 가능, 원고지 수정기호 사용가능
