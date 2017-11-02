@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>iframe</title>
+  <script src="./13_1.js"></script>
+</head>
+<body>
+	image : http://i.ytimg.com/vi/JIJLd4e6A_w/{0|1|2|3}.jpg<br>
+	{''|mq|hq|sd|maxres}default.jpg<br>
+	<!-- default는 0의 작은화면 1,2,3은 영상 중간 사이즈 -->
+	<!-- 해상도마다 사이즈가 존재함 '',mq,hq,sd,maxres 점점커짐 -->
+	<img src="http://i.ytimg.com/vi/JIJLd4e6A_w/mqdefault.jpg">
+	<hr>
+	video : https://www.ytapi.com/api/Amq-qlqbjYA/direct/22/<br>
+	<!-- 22 : 720p의 해상도를 나타내며 720p가 넘어갈 경우 음질, 동영상이 분리된다. -->
+	https://www.ytapi.com?format=direct&amp;itag=22&amp;vid=Amq-qlqbjYA/<br>
+	<!-- <video width="100%" src="" allowfullscreen controls autoplay></video> -->
+	<!-- <video width="100%" src="https://www.ytapi.com/api/Amq-qlqbjYA/direct/22/" allowfullscreen controls></video>-->
+	<!-- video tag의 경우 버튼을 통해 직접 제어가 가능하다. -->
+	<button onclick="pp(v)">play</button>
+	<video id="v" width="100%" src="https://www.ytapi.com?format=direct&itag=22&vid=Amq-qlqbjYA" allowfullscreen></video>
+	<!-- Amq-qlqbjYA	dc8YLDNDIRE -->
+	<hr>
+	iframe : https://www.youtube.com/embed/JIJLd4e6A_w<br>
+	<!-- embed는 iframe에서 사용됨 -->
+	<!-- youtube, map등의 경우 iframe를 사용하여 web에사용한다. -->
+	<!-- autoplay원하면 src뒤쪽에 ?autoplay=1추가 -->
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/dc8YLDNDIRE" frameborder="0" gesture="media" allowfullscreen></iframe>
+</body>
+</html>
