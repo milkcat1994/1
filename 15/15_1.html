@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Directions service (complex)</title>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuRLeZBuX1KiOm6FfWoOjqj2o8kRe8_Tc&callback=initMap">
+    </script>
+    <script src="15_1.js"></script>
+    <link rel="stylesheet" type="text/css" href="./15_1.css">
+  </head>
+  <body>
+    <div id="floating-panel">
+    <b>Start: </b>
+    <input type="text" value="광운대역" placeholder="광운대역" id="start">
+    </input>
+    <b>End: </b>
+    <input type="text" value="서울역" placeholder="광화문역" id="end">
+    </input>
+    </div>
+    <div id="map"></div>
+    &nbsp;
+    <div id="warnings-panel"></div>
+  </body>
+</html>
