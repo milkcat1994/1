@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="./14_1.css">
+  <script src="./14_1.js"></script>
+  <!-- 경로자체에 https가 붙을경우 보안상의 문제로 당겨서 사용이 안 될수도있음. -->
+  <script src="https://threejs.org/build/three.js"></script>
+  <title>VR PLAYER</title>
+</head>
+<body>
+<!-- https://threejs.org/examples/?q=video#webgl_video_panorama_equirectangular
+ -->
+ <nav>
+ 	<input type="file" onchange="load(this.files)" accept="video/*">
+ 	</input>
+ 	<button id="pnp" onclick="pp()">Pause</button>
+ </nav>
+	<div id="container"></div>
+
+</body>
+</html>
