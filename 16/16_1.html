@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Displaying text directions with <code>setPanel()</code></title>
+    <link rel="stylesheet" type="text/css" href="./16_1.css">
+    <script src="./16_1.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoBQsgZEQsWdF2CH0QzYDcyiTloBFc6bE&callback=initMap">
+    </script>
+  </head>
+  <body>
+    <div id="floating-panel">
+      <strong>Mode:</strong>
+      <select id="tmode">
+      	<option value="TRANSIT" selected>교통</option>
+      	<option value="DRIVING">운전</option>
+      	<option value="WALKING">도보</option>
+      	<option value="BICYCLING">자전거</option>
+      </select>
+
+      <strong>Start:</strong>
+      <input id="start" placeholder="출발지"></input>
+      
+      <strong>End:</strong>
+      <input id="end" placeholder="도착지"></input>
+      <button id="seek">길찾기</button>
+    </div>
+    <div id="right-panel"></div>
+    <div id="map"></div>
+  </body>
+</html>
