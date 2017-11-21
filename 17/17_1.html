@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Canvas</title>
+  <link rel="stylesheet" type="text/css" href="./17_1.css">
+  <script src="./17_1.js"></script>
+</head>
+<body class="scroll">
+	<button id="tab" onclick="sh()">≡</button>
+	<span id="menu" style="display: none">
+		<button onclick="save()">Save</button>
+		<button onclick="restore()">Restore</button>
+		<button onclick="initialize()">Clear</button>
+		색상 : <input type="color" id="selcolor">
+		굵기 : <input type="number" id="selwidth" min="1" max="10" value="6"><br>
+		<input type="file" id="img" accept="image/*"><br>
+		저장이름<input type="text" id="imgSaveAs" size="8" placeholder="png file name">
+		<input type="button" value="SaveAs" onclick="imgSave()"><br>
+		휴대폰 : <input type="sms" id="tel" placeholder="010-1234-5678"><br>
+		메세지 : <textarea id="message"></textarea>
+		<button onclick="sendsms(tel.value, message.value)">전송</button>
+	</span>
+	<canvas id="myCanvas"></canvas>
+</body>
+</html>

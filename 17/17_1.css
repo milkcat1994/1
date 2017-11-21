@@ -1,0 +1,16 @@
+
+*{margin:0;padding:0;}
+#tab,#menu{
+ position:absolute;
+ z-index:2;
+}
+#menu{margin-left:36px;}
+#tab{ font-size:20pt;
+ width:36px;opacity:0.3;}
+#tab:hover{opacity:1}
+#sms{width:90px;}
+#myCanvas{width:100vw;}
+.scroll{ white-space: nowrap;overflow: scroll; -webkit-overflow-scrolling: touch;
+-ms-overflow-style: -ms-autohiding-scrollbar; }
+.scroll::-webkit-scrollbar{ width: 0px; height: 0px; padding-top: 0px;
+padding: 0px; background-color: #F5F5F5; }
