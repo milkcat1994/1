@@ -7,6 +7,8 @@ nav{
 	position: absolute;
 	z-index: 2;
 	opacity: 0.3;
+	font-size: 16pt;
+	right: 200px;
 }
 
 nav:hover{
